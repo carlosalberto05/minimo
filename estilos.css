@@ -1,0 +1,334 @@
+.contenedor-principal{
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+/* Header ------------------------------------------------------------------------ */
+.contedor-header{
+    width: 100%;
+    height: 820px;
+}
+
+.bar-nav{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 40%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 2.5%;
+}
+.enlaces{
+    width: 60%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 2.5%;
+}
+.enlaces a{
+    text-decoration: none;
+    color: rgb(103,103,103);
+    font-size: 18px;
+}
+
+.img-principal{ 
+   display: flex;
+   justify-content: center;
+   width: 100%;
+   height: 500;
+   object-fit: cover;
+}
+
+/*  Seccion 1 -------------------------------------------------------- */
+
+.contenedor-section1{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+.contenedor-caja-section1{
+    width: 80%;
+    height: 100%;
+}
+
+/* color: rgb(103,103,103); */
+
+.contenedor-caja-section1 h3,h4{
+    color: rgb(103,103,103);
+    font-size: 18px;  
+    font-weight: inherit;
+}
+.contenedor-caja-section1 h2{
+     color: rgb(76,76,76);
+     font-weight: inherit;
+     font-size: 38px;
+}
+.contenedor-caja-section1 p{
+    color: rgb(76,76,76);
+    font-size: 19px;
+    margin-bottom: 45px;
+}
+
+/* Seccion 2 ---------------------------------------------------------- */
+
+.contenedor-section2{
+    
+    width: 100%;
+    height: 1200px;
+    display: flex;
+    justify-content: center;
+}
+.contenedor-caja-section2{
+    width: 80%;
+    height: 100%;
+    display: flex;
+}
+
+.caja-izquierda{
+  
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.caja-derecha{
+ 
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} 
+
+.card1{
+    width: 90%;
+    height: 50%; 
+    font-style: italic;
+}
+
+.card2{
+    width: 90%;
+    height: 50%; 
+    font-style: italic; 
+}
+
+.h3in{
+    color: rgb(103,103,103);
+    font-size: 15px;  
+    font-weight: inherit;
+}
+.h2in{
+    color: rgb(76,76,76);
+    font-weight: inherit;
+    font-size: 31px; 
+}
+
+.parraf{
+    color: rgb(76,76,76);
+    font-size: 18px;
+}
+
+/* Sección 3 ------------------------------------------------------------------ */
+
+.contenedor-section3{
+    background: rgb(240,240,240);
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-caja-seccion3{
+    
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo3{
+   
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(35,35,35); 
+    font-size: 23px;
+    font-weight: inherit;
+    font-style: italic; 
+}
+
+.titulo3 h2{
+    font-weight: inherit;
+}
+
+.correo{
+   
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#linea{
+    background: rgb(240,240,240);
+    width: 300px;
+    height: 40px;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 1px solid black;
+    color: rgb(76,76,76);
+    font-size: 15px;
+    font-weight: inherit;
+    font-style: italic; 
+    
+}
+
+/* Seccion 4 -------------------------------------------------------------- */
+
+.contenedor-section4{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+}
+
+.card1-a{
+    
+    width: 90%;
+    height: 80%; 
+    font-style: italic;
+}
+
+.card2-a{
+   
+    width: 90%;
+    height: 80%; 
+    font-style: italic; 
+}
+
+/* Seccion 5 --------------------------------------------------- */
+
+.contenedor-section5{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-caja-section5{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja-boton{
+    width: 20%;
+    height: 20%;
+    border: 1px solid rgb(70,70,70);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(69,69,69);
+    font-size: 24px;
+    font-weight: inherit;
+    font-style: italic;
+}
+
+.caja-boton:hover{
+    background:rgb(150, 156, 123);;
+    color: white;
+}
+
+/* Footer ---------------------------------------------- */
+
+.contenedor-footer{
+    background: rgb(240,240,240);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+
+.condiciones{
+    
+    width: 50%;
+    height: 70%;
+    margin-left: 3%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.condiciones-caja{
+    width: 60%;
+    height: 90%;
+  
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.condiciones-caja a{
+    text-decoration: none;
+    color: rgb(21,21,21);
+    font-size: 17px;
+    font-weight: inherit;
+    font-style: italic;
+}
+
+.siguenos{
+    width: 50%;
+    height: 70%;
+    margin-right: 3%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.siguenos-caja{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(21,21,21);
+    font-size: 17px;
+    font-weight: inherit;
+    font-style: italic;
+}
+
+.siguenos-caja .fab{
+    text-decoration: none;
+    color:rgb(75,75,75);
+}
+
+.siguenos-caja .fab:hover{
+    text-decoration: none;
+    color:rgb(150, 156, 123);
+}
